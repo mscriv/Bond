@@ -2,7 +2,7 @@
 <% @agents.each do |agent| %>
   
 <div>
-  <h3><%= agent.name %></h3>
+  <h3><%= link_to agent.name, agent %></h3>
     <h3><%= agent.bio %></h3>
 
     <% end %>

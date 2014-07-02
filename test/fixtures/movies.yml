@@ -2,6 +2,10 @@
 
 one:
   title: MyString
+  agent_id: 1
+  bond_girl_id: 1
 
 two:
   title: MyString
+  agent_id: 1
+  bond_girl_id: 1

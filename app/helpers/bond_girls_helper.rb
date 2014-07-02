@@ -1,0 +1,2 @@
+module BondGirlsHelper
+end
