@@ -5,8 +5,13 @@ Bond::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-  resources :agents
+  resources :agents do
+  resources :movies
+  end
+  
+  resources :movies do
   resources :bond_girls
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

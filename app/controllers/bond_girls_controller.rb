@@ -1,6 +1,6 @@
 class BondGirlsController < ApplicationController
   def index
-    @bond_girls = Bond_Girl.all
+    @bondgirls = BondGirl.all
   end
 
   def show
